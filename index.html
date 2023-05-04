@@ -16,20 +16,27 @@
     <link rel="shortcut icon" href="/favicon_io/favicon.ico" type="image/x-icon">
 
     <script src="https://kit.fontawesome.com/e27ec5c147.js" crossorigin="anonymous"></script>
-    
+
 </head>
 
 <body>
     <!----hero Section start---->
     <header>
-        <nav>
-            <h2 class="logo">Portfo<span>lio</span></h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">Port<span>folio</span></div>
+            <!-- NAVIGATION MENU -->
+            <div class="nav-links">
+                <!-- USING CHECKBOX HACK -->
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
         <div class="hero">
             <div class="content">
@@ -52,14 +59,13 @@
                 <img alt="" src="/img/IMG_5075.PNG" />
                 <div class="about-text">
                     <h2>About Me</h2>
-                    <h5>Developer <span>& Engineerr</span></h5>
+                    <h5>Software Developer <span>& Engineerr</span></h5>
                     <p>
-                        I am an aspiring front-end web developer. I am part of the current
-                        zuri cohort. I want to able to make responsive websites that are
+                        I am an aspiring web developer. I want to able to make responsive websites that are
                         accessible to all users, regardless of their device.
                         SOme of my hobbies include coding, music, playing video games etc.
                     </p>
-                    <button type="button">Let's Talk</button>
+                    <button type="button"><a href="/about.html">More...</a></button>
                 </div>
             </div>
         </section>
@@ -91,7 +97,7 @@
             </div>
         </section>
 
-        
+
         <!------Contact Me------>
         <div id="contact" class="contact-me">
             <p>Let Me Get You A Beautiful Website.</p>
@@ -105,12 +111,14 @@
         <div class="social">
             <a href="https://twitter.com/nnodim_obinna"><i class="fa-brands fa-twitter"></i></i></a>
             <a href="https://www.instagram.com/nnodim_obinna/"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/obinna-nnodim?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BeAFgxBIbQtSi9iDQLS9qSg%3D%3D"><i class="fa-brands fa-linkedin-in"></i></i></i></a>
+            <a
+                href="https://www.linkedin.com/in/obinna-nnodim?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BeAFgxBIbQtSi9iDQLS9qSg%3D%3D"><i
+                    class="fa-brands fa-linkedin-in"></i></i></i></a>
         </div>
         <p class="end">CopyRight 2023</p>
     </footer>
 
-    
+
 </body>
 
 </html>
